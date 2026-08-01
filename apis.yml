@@ -1,7 +1,27 @@
 aid: somnee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/somnee.png
 name: Somnee
-description: Somnee is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Somnee is a consumer sleep-technology company behind a smart sleep headband that uses
+  personalized neurostimulation to improve sleep. Developed over roughly eight years by a
+  team of UC Berkeley neuroscientists (co-founders include sleep scientist Dr. Matthew Walker,
+  Dr. Robert T. Knight, Dr. Rich Ivry, and CSTO Dr. Ram Gurumoorthy, with CEO Tim Rosa, former
+  Fitbit CMO), the wearable pairs clinical-grade EEG+ sensors with a companion app and
+  proprietary AI to deliver a 15-minute pre-bedtime session that the company says helps users
+  fall asleep about 50% faster and cut nighttime wake-ups by roughly a third, without medication.
+  Somnee sells the headband, accessories, and a sleep-service membership direct to consumers,
+  and is backed by Khosla Ventures. Somnee publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/somnee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Sleep
+- Sleep Technology
+- Neurotechnology
+- Neurostimulation
+- Wearables
+- Digital Health
+- EEG
+- Consumer Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/somnee-domain-security.yml
 - type: Website
   url: https://somneesleep.com/
+- type: Blog
+  url: https://somneesleep.com/blogs/post
+- type: Support
+  url: https://somneesleep.com/pages/contact
+- type: Pricing
+  url: https://somneesleep.com/products/smart-sleep-headband
+- type: PrivacyPolicy
+  url: https://somneesleep.com/pages/privacy-policy-and-terms-of-use
+- type: TermsOfService
+  url: https://somneesleep.com/pages/privacy-policy-and-terms-of-use#terms
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

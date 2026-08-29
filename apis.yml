@@ -34,6 +34,9 @@ description: >-
   Somnee sells the headband, accessories, and a sleep-service membership direct to consumers,
   and is backed by Khosla Ventures. Somnee publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/somnee/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Somnee publishes no public API or developer platform."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
